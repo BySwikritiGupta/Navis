@@ -1,16 +1,62 @@
-# React + Vite
+# Navis
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **Current Status: Frontend Prototype**
 
-Currently, two official plugins are available:
+Navis is a smartphone-based navigation application prototype designed to provide reliable navigation using GNSS-based positioning with the potential to incorporate additional positioning and sensor technologies for situations where conventional GPS/GNSS signals may be unreliable or unavailable.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚧 Project Status
 
-## React Compiler
+**This repository currently contains the frontend prototype of Navis.**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The current version focuses on:
 
-## Expanding the Oxlint configuration
+* Mobile UI and user experience
+* Splash and login screens
+* Navigation/home interface
+* Calibration interface
+* Frontend interactions and screen transitions
+* Visualizing the overall concept and workflow of the application
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The **backend, navigation logic, GNSS/INS integration, real-time positioning, and related services are planned for continued development** and are not yet implemented in this version.
+
+Therefore, some features visible in the frontend may currently be placeholders or simulated interactions.
+
+## 🛠️ Tech Stack
+
+* React
+* Vite
+* JavaScript
+* HTML/CSS
+
+## 🚀 Running the Prototype
+
+Clone the repository and install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application can then be opened using the local URL provided by Vite.
+
+## 🗺️ Planned Development
+
+Future development will extend the current frontend prototype with:
+
+* Backend services
+* GNSS/GPS positioning
+* Galileo/NavIC integration
+* INS-based positioning fallback
+* Navigation and route-processing logic
+* Real-time location tracking
+* Handling navigation in tunnels, underpasses, parking structures, forests, and urban canyons
+* Communication between the frontend and backend
+
+## 📌 Note
+
+This is an **early-stage prototype** intended to demonstrate the frontend concept and user experience. The repository will continue to evolve as the backend and core navigation functionality are developed.
