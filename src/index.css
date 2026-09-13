@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --brand: #6c4fd6;
+  --brand-dark: #4e38a8;
+  --brand-light: #8c74e3;
+  --brand-tint: #efeafb;
+  --ink: #231b3d;
+  --muted: #8a82a3;
+  --canvas: #f6f4fc;
+  --good-bg: #e4f7ec;
+  --good-text: #1e9e5a;
+  --warn-bg: #fdeaf1;
+  --warn-text: #d6467f;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-display);
+  background: #edebf3;
+}

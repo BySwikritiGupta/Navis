@@ -1,0 +1,77 @@
+.app-page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #edebf3;
+  padding: 24px;
+}
+
+.phone-frame {
+  width: 375px;
+  max-width: 100%;
+  border-radius: 44px;
+  border: 1px solid #d9d4ec;
+  background: #050505;
+  padding: 12px;
+  box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.4);
+}
+
+.phone-screen {
+  position: relative;
+  height: 720px;
+  overflow: hidden;
+  border-radius: 34px;
+
+  background: linear-gradient(
+    150deg,
+    #F4F6F9 0%,
+    #BAD6FF 100%
+  );
+}
+
+.phone-notch {
+  position: absolute;
+  left: 50%;
+  top: 8px;
+  transform: translateX(-50%);
+  width: 96px;
+  height: 20px;
+  border-radius: 999px;
+  background: #050505;
+  z-index: 10;
+}
+
+.phone-content {
+  height: 100%;
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-page {
+  position: relative;
+}
+
+.fullscreen-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  border: 1px solid #d9d4ec;
+  background: #ffffffcc;
+  color: var(--ink);
+  cursor: pointer;
+  z-index: 20;
+}
+
+.fullscreen-btn:hover {
+  background: #ffffff;
+}
